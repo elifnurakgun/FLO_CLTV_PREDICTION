@@ -1,0 +1,14 @@
+# CALCULATION
+# CLTV = (Customer Value / Churn Rate) * Profit Margin
+# Customer Value = Average Order Value * Purchase Frequency
+# Avarage Order Value = Total Price / Total Transaction
+# Purchase Frequency = Total Transaction / Total Number of Customers
+# Churn Rate = 1 - Repeat Rate
+# Repeat Rate = Birden alışveriş yapan müşteri sayısı / Toplam müşteri sayısı
+# Profit Margin = Total Price * 0.10
+
+# PREDICTION
+# CLTV = (Customer Value / Churn Rate) * Profit Margin
+# Customer Value = Purchase Frequency * Average Order Value
+# CLTV = Expected Number of Transaction * Expected Avarage Profit
+# CLTV = BGNBD Model * Gamma Gamma Model
